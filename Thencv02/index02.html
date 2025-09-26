@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Copter CV V2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap%22");
+        @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #000000;
+        }
+
+        .navbar-section {
+            display: flex;
+            background-color: #1b1b1b;
+            width: 80%;
+            padding: 30px 50px;
+            margin: auto;
+        }
+
+        .menu-bar {
+            flex: 1;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .menu-bar a {
+            font-family: 'IBM Plex Mono';
+            text-decoration: none;
+            color: #b8b5b586;
+            margin: 0px 50px;
+            font-size: 16px;
+        }
+
+        .menu-bar a:hover {
+            color: #ffffff;
+        }
+
+        .icon-bar i {
+            color: #b8b5b5;
+            margin: 0px 10px;
+            font-size: 25px;
+            color: #8b8b8b93;
+        }
+
+        .icon-bar a i:hover {
+            color: #0cf02a;
+        }
+
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 430px;
+            grid-template-areas:
+                "text image";
+            margin: 100px 150px;
+            align-items: center;
+        }
+
+        .text {
+            grid-area: "text";
+            color: white;
+        }
+
+        .image {
+            grid-area: "image";
+            text-align: center;
+        }
+
+
+        h1 {
+            font-family: "Raleway";
+            font-size: 60px;
+        }
+
+        .image img {
+            width: 450px;
+        }
+
+        h6 {
+            font-family: "IBM Plex Mono";
+            font-size: 20px;
+            color: #9C9C9C;
+            font-weight: 400;
+            margin-bottom: 70px;
+            line-height: 1.8;
+        }
+
+        .text a{
+            text-decoration: none;
+            background-color: #3F8E00;
+            padding: 30px 70px;
+            font-size: 20px;
+            font-family: "IBM Plex Mono";
+            font-weight: 500;
+            color: white;
+            border: 3px solid #62BA1B;
+            border-radius: 7px;
+        }
+
+        .text a:hover{
+            background-color: #b9fc00;
+            color: #000000;
+            font-weight: 900;
+            border: 3px solid #cfffa8;
+        }
+
+        #worked{
+            color: white;
+            font-family: "IBM Plex Mono";
+            margin-left: 150px;
+            font-size: 20px;
+        }
+
+        .work{
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 120px;
+            margin-bottom: 30px;
+        }
+
+        .work div{
+            border: 1px solid rgba(105, 105, 105, 0.377);
+        }
+
+        .work div img{
+            width: 100px;
+            padding: 10px 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar-section -->
+    <div class="navbar-section">
+        <div class="menu-bar">
+            <a href="#">Home</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Testimonials</a>
+            <a href="#">Recent Work</a>
+            <a href="#">Get int Touch</a>
+        </div>
+        <div class="icon-bar">
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-behance"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="text">
+            <h1>Sombat Jaideemak</h1>
+            <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt rem odit labore unde nemo omnis sequi
+                hic
+                sit laudantium repellendus recusandae vitae ea laborum, ipsa nisi eos autem.</h6>
+            <a href="#">Let’s get started ></a>
+        </div>
+
+        <div class="image">
+            <img src="./img.Photo.png" alt="">
+        </div>
+    </div>
+
+    <p id="worked">Worked with</p>
+
+    <div class="work">
+        <div class="cliskup" style="padding-top: 10px;"><img src="./img.1.png" alt=""></div>
+        <div class="dropbox" style="padding-top: 10px;"><img src="./img.2.png" alt=""></div>
+        <div class="paychex" style="padding-top: 15px;"><img src="./img.3.png" alt=""></div>
+        <div class="elastic" style="padding-top: 5px;"><img src="./img.4.png" alt=""></div>
+        <div class="stripe" style="padding-top: 5px;"><img src="./img.5.png" alt=""></div>
+    </div>
+</body>
+
+</html>
